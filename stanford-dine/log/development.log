@@ -1782,3 +1782,87 @@ Started GET "/assets/flomo.jpg" for ::1 at 2015-02-21 17:28:43 -0800
 
 
 Started GET "/assets/wilbur.jpg" for ::1 at 2015-02-21 17:28:43 -0800
+
+
+Started GET "/" for ::1 at 2015-02-21 17:30:21 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mHall Load (0.2ms)[0m  SELECT "halls".* FROM "halls"
+  Rendered welcome/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 208ms (Views: 198.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:30:21 -0800
+
+
+Started GET "/assets/jquery-1.11.2.min-eb8e576f52996bce7c557babc6e8a79e.js?body=1" for ::1 at 2015-02-21 17:30:21 -0800
+
+
+Started GET "/assets/welcome-d535f6f9b23afbe22e191262315b5a44.js?body=1" for ::1 at 2015-02-21 17:30:21 -0800
+
+
+Started GET "/assets/application-fdd183d0d56dd1e3bb488894a2e228df.js?body=1" for ::1 at 2015-02-21 17:30:21 -0800
+
+
+Started GET "/assets/bootstrap.css" for ::1 at 2015-02-21 17:30:21 -0800
+
+
+Started GET "/assets/lakeside.jpg" for ::1 at 2015-02-21 17:30:21 -0800
+
+
+Started GET "/assets/afdc.jpg" for ::1 at 2015-02-21 17:30:21 -0800
+
+
+Started GET "/assets/manz.jpg" for ::1 at 2015-02-21 17:30:21 -0800
+
+
+Started GET "/assets/ricker.jpg" for ::1 at 2015-02-21 17:30:21 -0800
+
+
+Started GET "/assets/branner.jpg" for ::1 at 2015-02-21 17:30:21 -0800
+
+
+Started GET "/assets/flomo.jpg" for ::1 at 2015-02-21 17:30:21 -0800
+
+
+Started GET "/assets/stern.jpg" for ::1 at 2015-02-21 17:30:21 -0800
+
+
+Started GET "/assets/wilbur.jpg" for ::1 at 2015-02-21 17:30:22 -0800
+
+
+Started GET "/" for ::1 at 2015-02-21 17:31:02 -0800
+Processing by WelcomeController#index as HTML
+  [1m[36mHall Load (0.2ms)[0m  [1mSELECT "halls".* FROM "halls"[0m
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 86ms (Views: 85.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:31:02 -0800
+
+
+Started GET "/assets/bootstrap.css" for ::1 at 2015-02-21 17:31:02 -0800
+
+
+Started GET "/assets/afdc.jpg" for ::1 at 2015-02-21 17:31:02 -0800
+
+
+Started GET "/assets/lakeside.jpg" for ::1 at 2015-02-21 17:31:02 -0800
+
+
+Started GET "/assets/flomo.jpg" for ::1 at 2015-02-21 17:31:02 -0800
+
+
+Started GET "/assets/stern.jpg" for ::1 at 2015-02-21 17:31:02 -0800
+
+
+Started GET "/assets/branner.jpg" for ::1 at 2015-02-21 17:31:02 -0800
+
+
+Started GET "/assets/ricker.jpg" for ::1 at 2015-02-21 17:31:02 -0800
+
+
+Started GET "/assets/manz.jpg" for ::1 at 2015-02-21 17:31:02 -0800
+
+
+Started GET "/assets/wilbur.jpg" for ::1 at 2015-02-21 17:31:02 -0800
