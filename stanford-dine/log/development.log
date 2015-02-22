@@ -1866,3 +1866,322 @@ Started GET "/assets/manz.jpg" for ::1 at 2015-02-21 17:31:02 -0800
 
 
 Started GET "/assets/wilbur.jpg" for ::1 at 2015-02-21 17:31:02 -0800
+
+
+Started GET "/" for ::1 at 2015-02-21 17:33:55 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mHall Load (0.2ms)[0m  SELECT "halls".* FROM "halls"
+  Rendered welcome/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 212ms (Views: 201.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/welcome-2e4e6319542d3f0be9d32bdbe7290253.js?body=1" for ::1 at 2015-02-21 17:33:56 -0800
+
+
+Started GET "/assets/application-fad0398c08412ce53e17efdcacbd91e7.js?body=1" for ::1 at 2015-02-21 17:33:56 -0800
+
+
+Started GET "/assets/bootstrap.css" for ::1 at 2015-02-21 17:33:56 -0800
+
+
+Started GET "/assets/afdc.jpg" for ::1 at 2015-02-21 17:33:56 -0800
+
+
+Started GET "/assets/flomo.jpg" for ::1 at 2015-02-21 17:33:56 -0800
+
+
+Started GET "/assets/stern.jpg" for ::1 at 2015-02-21 17:33:56 -0800
+
+
+Started GET "/assets/branner.jpg" for ::1 at 2015-02-21 17:33:56 -0800
+
+
+Started GET "/assets/ricker.jpg" for ::1 at 2015-02-21 17:33:56 -0800
+
+
+Started GET "/assets/lakeside.jpg" for ::1 at 2015-02-21 17:33:56 -0800
+
+
+Started GET "/assets/wilbur.jpg" for ::1 at 2015-02-21 17:33:56 -0800
+
+
+Started GET "/assets/manz.jpg" for ::1 at 2015-02-21 17:33:56 -0800
+
+
+Started GET "/assets/bootstrap.css.map" for ::1 at 2015-02-21 17:34:11 -0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/jasonliu/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/jasonliu/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/jasonliu/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jasonliu/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/jasonliu/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/jasonliu/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (4.9ms)
+  Rendered /Users/jasonliu/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/jasonliu/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /Users/jasonliu/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (36.4ms)
+
+
+Started GET "/" for ::1 at 2015-02-21 17:37:00 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mHall Load (0.2ms)[0m  SELECT "halls".* FROM "halls"
+  Rendered welcome/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 209ms (Views: 199.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/welcome-1eb08edf933aa936716ae90004fa3ee4.js?body=1" for ::1 at 2015-02-21 17:37:00 -0800
+
+
+Started GET "/assets/application-e8083c0bfcd1a68d0079809a49bc80ae.js?body=1" for ::1 at 2015-02-21 17:37:00 -0800
+
+
+Started GET "/assets/bootstrap.css" for ::1 at 2015-02-21 17:37:00 -0800
+
+
+Started GET "/assets/afdc.jpg" for ::1 at 2015-02-21 17:37:00 -0800
+
+
+Started GET "/assets/branner.jpg" for ::1 at 2015-02-21 17:37:00 -0800
+
+
+Started GET "/assets/flomo.jpg" for ::1 at 2015-02-21 17:37:00 -0800
+
+
+Started GET "/assets/ricker.jpg" for ::1 at 2015-02-21 17:37:00 -0800
+
+
+Started GET "/assets/lakeside.jpg" for ::1 at 2015-02-21 17:37:00 -0800
+
+
+Started GET "/assets/manz.jpg" for ::1 at 2015-02-21 17:37:00 -0800
+
+
+Started GET "/assets/stern.jpg" for ::1 at 2015-02-21 17:37:00 -0800
+
+
+Started GET "/assets/wilbur.jpg" for ::1 at 2015-02-21 17:37:00 -0800
+
+
+Started GET "/" for ::1 at 2015-02-21 17:40:05 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mHall Load (0.2ms)[0m  SELECT "halls".* FROM "halls"
+  Rendered welcome/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 159ms (Views: 149.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-02-21 17:40:06 -0800
+Processing by WelcomeController#index as HTML
+  [1m[36mHall Load (0.2ms)[0m  [1mSELECT "halls".* FROM "halls"[0m
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 83ms (Views: 82.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:40:06 -0800
+
+
+Started GET "/assets/bootstrap.css" for ::1 at 2015-02-21 17:40:06 -0800
+
+
+Started GET "/assets/afdc.jpg" for ::1 at 2015-02-21 17:40:06 -0800
+
+
+Started GET "/assets/flomo.jpg" for ::1 at 2015-02-21 17:40:06 -0800
+
+
+Started GET "/assets/branner.jpg" for ::1 at 2015-02-21 17:40:06 -0800
+
+
+Started GET "/assets/lakeside.jpg" for ::1 at 2015-02-21 17:40:06 -0800
+
+
+Started GET "/assets/stern.jpg" for ::1 at 2015-02-21 17:40:06 -0800
+
+
+Started GET "/assets/manz.jpg" for ::1 at 2015-02-21 17:40:06 -0800
+
+
+Started GET "/assets/wilbur.jpg" for ::1 at 2015-02-21 17:40:06 -0800
+
+
+Started GET "/assets/ricker.jpg" for ::1 at 2015-02-21 17:40:06 -0800
+
+
+Started GET "/" for ::1 at 2015-02-21 17:43:36 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mHall Load (0.2ms)[0m  SELECT "halls".* FROM "halls"
+  Rendered welcome/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 158ms (Views: 148.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:43:37 -0800
+
+
+Started GET "/assets/jquery-1.11.2.min.js" for ::1 at 2015-02-21 17:43:37 -0800
+
+
+Started GET "/assets/bootstrap.css" for ::1 at 2015-02-21 17:43:37 -0800
+
+
+Started GET "/assets/afdc.jpg" for ::1 at 2015-02-21 17:43:37 -0800
+
+
+Started GET "/assets/flomo.jpg" for ::1 at 2015-02-21 17:43:37 -0800
+
+
+Started GET "/assets/branner.jpg" for ::1 at 2015-02-21 17:43:37 -0800
+
+
+Started GET "/assets/stern.jpg" for ::1 at 2015-02-21 17:43:37 -0800
+
+
+Started GET "/assets/lakeside.jpg" for ::1 at 2015-02-21 17:43:37 -0800
+
+
+Started GET "/assets/manz.jpg" for ::1 at 2015-02-21 17:43:37 -0800
+
+
+Started GET "/assets/wilbur.jpg" for ::1 at 2015-02-21 17:43:37 -0800
+
+
+Started GET "/assets/ricker.jpg" for ::1 at 2015-02-21 17:43:37 -0800
+
+
+Started GET "/" for ::1 at 2015-02-21 17:46:57 -0800
+Processing by WelcomeController#index as HTML
+  [1m[36mHall Load (0.1ms)[0m  [1mSELECT "halls".* FROM "halls"[0m
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 145ms (Views: 144.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-21 17:46:58 -0800
+
+
+Started GET "/assets/application-6946211ae1338484639fd174737ac049.js?body=1" for ::1 at 2015-02-21 17:46:58 -0800
+
+
+Started GET "/assets/welcome-60784ad6a38d594f482423ebecd83e22.js?body=1" for ::1 at 2015-02-21 17:46:58 -0800
+
+
+Started GET "/assets/bootstrap.css" for ::1 at 2015-02-21 17:46:58 -0800
+
+
+Started GET "/assets/jquery-1.11.2.min.js" for ::1 at 2015-02-21 17:46:58 -0800
+
+
+Started GET "/assets/flomo.jpg" for ::1 at 2015-02-21 17:46:58 -0800
+
+
+Started GET "/assets/branner.jpg" for ::1 at 2015-02-21 17:46:58 -0800
+
+
+Started GET "/assets/afdc.jpg" for ::1 at 2015-02-21 17:46:58 -0800
+
+
+Started GET "/assets/lakeside.jpg" for ::1 at 2015-02-21 17:46:58 -0800
+
+
+Started GET "/assets/manz.jpg" for ::1 at 2015-02-21 17:46:58 -0800
+
+
+Started GET "/assets/ricker.jpg" for ::1 at 2015-02-21 17:46:58 -0800
+
+
+Started GET "/assets/stern.jpg" for ::1 at 2015-02-21 17:46:58 -0800
+
+
+Started GET "/assets/wilbur.jpg" for ::1 at 2015-02-21 17:46:58 -0800
+  [1m[36m (1.6ms)[0m  [1mCREATE TABLE "halls" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "img" varchar, "score" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150222000650')
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "halls" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "img" varchar, "score" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150222000650')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "halls" ("id", "name", "img", "score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 0], ["name", "Arrillaga"], ["img", "assets/afdc.jpg"], ["score", 0], ["created_at", "2015-02-22 01:51:20.791580"], ["updated_at", "2015-02-22 01:51:20.791580"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "halls" ("id", "name", "img", "score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["id", 0], ["name", "Branner"], ["img", "assets/branner.jpg"], ["score", 0], ["created_at", "2015-02-22 01:51:20.795532"], ["updated_at", "2015-02-22 01:51:20.795532"]]
+SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "halls" ("id", "name", "img", "score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36m (1.6ms)[0m  [1mCREATE TABLE "halls" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "img" varchar, "score" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150222000650')
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "halls" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "img" varchar, "score" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150222000650')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "halls" ("id", "name", "img", "score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 0], ["name", "Arrillaga"], ["img", "assets/afdc.jpg"], ["score", 0], ["created_at", "2015-02-22 01:52:13.464691"], ["updated_at", "2015-02-22 01:52:13.464691"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "halls" ("id", "name", "img", "score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["id", 0], ["name", "Branner"], ["img", "assets/branner.jpg"], ["score", 0], ["created_at", "2015-02-22 01:52:13.468721"], ["updated_at", "2015-02-22 01:52:13.468721"]]
+SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "halls" ("id", "name", "img", "score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to Hall (20150222015510)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150222015510"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (1.6ms)[0m  [1mCREATE TABLE "halls" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "img" varchar, "score" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150222015510')
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150222000650')[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "halls" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "img" varchar, "score" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150222015510')[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150222000650')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "halls" ("id", "name", "img", "score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 0], ["name", "Arrillaga"], ["img", "assets/afdc.jpg"], ["score", 0], ["created_at", "2015-02-22 01:56:00.950418"], ["updated_at", "2015-02-22 01:56:00.950418"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "halls" ("id", "name", "img", "score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["id", 0], ["name", "Branner"], ["img", "assets/branner.jpg"], ["score", 0], ["created_at", "2015-02-22 01:56:00.956844"], ["updated_at", "2015-02-22 01:56:00.956844"]]
+SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "halls" ("id", "name", "img", "score", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
