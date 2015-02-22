@@ -10,6 +10,18 @@
 	<BODY>
 		<h1>Dine<h1>
 		<h2>Which Dining Hall is the best today?</h2>
+		<button type="button" id="myStateButton" data-complete-text="finished!" class="btn btn-primary" autocomplete="off">
+			testing...
+		</button>
+
+		<script>
+		  $('#myStateButton').on('click', function () {
+		    $(this).button('complete'); // button text will be "finished!"
+  			alert("BUTTON WAS PRESSED");
+  			console.log("button pressed");
+		  })
+		</script>
+
 		<div class="row">
 			<% @halls.each do |hall| %>
 				<div class="col-sm-4">
